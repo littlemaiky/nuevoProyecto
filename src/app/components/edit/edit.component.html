@@ -3,18 +3,18 @@
 <form [formGroup]="editForm" (ngSubmit)="onSubmit()" novalidate>
 
     <div class="mb-3">
-        <label class="form-label">Title</label>
+        <label class="form-label">Nombre</label>
         <input formControlName="title" type="text" class="form-control" required>      
     </div>
     <div class="mb-3">
-        <label class="form-label">Content</label>
+        <label class="form-label">Apellido</label>
         <input formControlName="content" type="text" class="form-control" required>      
     </div>
     <div class="mb-3">
-        <label class="form-label">Author</label>
+        <label class="form-label">Edad</label>
         <input formControlName="author" type="text" class="form-control" required>       
     </div>
     
-    <button type="submit" class="btn btn-primary">Update</button>
+    <button type="submit" class="btn btn-primary">Actualizar</button>
 
 </form>
