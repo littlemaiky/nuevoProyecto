@@ -15,7 +15,9 @@ import { ShowComponent } from './components/show/show.component';
 import { CreateComponent } from './components/create/create.component';
 import { EditComponent } from './components/edit/edit.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NavComponent } from './nav/nav.component';
+import { Prueba12Component } from './prueba12/prueba12.component';
+import { Prueba13Component } from './prueba13/prueba13.component';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { NavComponent } from './nav/nav.component';
     ShowComponent,
     CreateComponent,
     EditComponent,
-    NavComponent
+    Prueba12Component,
+    Prueba13Component,
+    
   ],
   imports: [
     BrowserModule,

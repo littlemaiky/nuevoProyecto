@@ -5,3 +5,8 @@ body {
 .bg-gradient {  
     background: linear-gradient(to right, #050505, #aeb3af) !important;
 }
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }

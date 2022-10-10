@@ -5,12 +5,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { ShowComponent } from './components/show/show.component';
 import { CreateComponent } from './components/create/create.component';
 import { EditComponent } from './components/edit/edit.component';
+import { Prueba12Component } from './prueba12/prueba12.component';
+import { Prueba13Component } from './prueba13/prueba13.component';
 
 //creamos la constante para las Rutas
 const routes: Routes = [
   { path: '', component: ShowComponent },
   { path: 'create', component: CreateComponent},
-  { path: 'edit/:id', component: EditComponent}
+  { path: 'edit/:id', component: EditComponent},
+  { path: 'prueba', component: Prueba12Component},
+  { path: 'prueba2', component: Prueba13Component}
+  
 ];
 
 @NgModule({
