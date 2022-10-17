@@ -1,3 +1,5 @@
+import { centro } from "./tipo-curso";
+
 
 export interface Curso {
     id: string,
@@ -5,6 +7,8 @@ export interface Curso {
     autor: string,
     descripcion: string,
     imagen: string,
-    precio:number
+    precio:number,
+    
+  
     
 }

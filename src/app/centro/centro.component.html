@@ -1,10 +1,15 @@
-
-<img [src]=curso.imagen class="img-thumbnail" alt="imagen">
-<div>
-    <p><strong>Nombre: </strong>{{curso.nombre}}</p>
-</div>
-<div>
-    <strong >Descripcion:</strong>
-</div>
-<p class="col-6">{{curso.descripcion}}</p>
-<p><strong>Precio: </strong>{{curso.precio}}</p>
+    <!-- ESTE ES EL HIJO -->
+<div style="padding-bottom: 0.5rem;">
+      <img [src]=curso.imagen class="img-thumbnail" alt="imagen">
+    <div>
+        <p><strong>Nombre: </strong>{{curso.nombre}}</p>
+    </div>
+    <div>
+        <strong >Descripcion:</strong>
+    </div>
+    <p class="col-6">{{curso.descripcion}}</p>
+    <p><strong>Precio: </strong>{{curso.precio}}</p>
+    <button type="button" class="btn btn-dark" (click)="clickAgregar(curso.id)">Go</button>
+    <!-- aca se enlaza el evento click a un metodo -->
+  </div>
+    
