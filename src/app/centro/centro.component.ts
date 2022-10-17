@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Curso } from '../model/curso';
 
 @Component({
   selector: 'app-centro',
@@ -6,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./centro.component.css']
 })
 export class CentroComponent implements OnInit {
+
+  @Input() curso: Curso = {
+       id: " ",
+       nombre: "  ",
+       autor: " ",
+       descripcion: " ",
+       imagen: " ",
+       precio: 0
+        
+
+   };
 
   constructor() { }
 
