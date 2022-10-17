@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Curso } from '../model/curso';
 
-
-
 @Component({
   selector: 'app-prueba12',
   templateUrl: './prueba12.component.html',
