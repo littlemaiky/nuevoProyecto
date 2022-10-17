@@ -1,1 +1,9 @@
-<p>prueba133333333333 works!</p>
+<div class="row">
+    <div class="col-md-6" *ngFor="let curso of elementos">
+        <img [src]=curso.imagen class="img-thumbnail" alt="imagen">
+    <div>
+        <strong >Descripcion:</strong>
+    </div>
+    <p class="col-6">{{curso.descripcion}}</p>
+    <p><strong>Precio</strong>{{curso.precio}}</p>
+</div>

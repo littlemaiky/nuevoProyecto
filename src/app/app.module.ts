@@ -17,6 +17,7 @@ import { EditComponent } from './components/edit/edit.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Prueba12Component } from './prueba12/prueba12.component';
 import { Prueba13Component } from './prueba13/prueba13.component';
+import { CentroComponent } from './centro/centro.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { Prueba13Component } from './prueba13/prueba13.component';
     EditComponent,
     Prueba12Component,
     Prueba13Component,
+    CentroComponent,
     
   ],
   imports: [

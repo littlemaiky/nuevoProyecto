@@ -1,11 +1,10 @@
-import * as internal from "stream";
 
-export interface curso  {
+export interface Curso {
     id: string,
-    precio: string,
     nombre: string,
     autor: string,
     descripcion: string,
     imagen: string,
+    precio:number
     
 }

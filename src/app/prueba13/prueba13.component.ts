@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { curso } from '../model/curso';
+import { Component, Input, OnInit } from '@angular/core';
+import { Curso } from '../model/curso';
+
+
+
 
 @Component({
   selector: 'app-prueba13',
@@ -7,19 +10,7 @@ import { curso } from '../model/curso';
   styleUrls: ['./prueba13.component.css']
 })
 export class Prueba13Component implements OnInit {
-
-  cursos: curso[] = [
-
-    {
-    id: "01",
-    nombre: "MONALISA",
-    autor: "JUAN",
-    descripcion: "obra maestra",
-    imagen: ""
-    },
-
-  ];
-
+    @Input() elementos:Curso[]=[];
   constructor() { }
 
   ngOnInit(): void {

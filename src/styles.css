@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-color: #c2d8df;
+    background-color: #aee8fa;
+    
 }
 .bg-gradient {  
     background: linear-gradient(to right, #050505, #aeb3af) !important;
@@ -10,16 +11,3 @@ body {
     margin: 0;
     padding: 0;
   }
-  .contenedor-galeria{
-    display: flex;/* altura*/
-    flex-wrap: wrap;/* envuelve el flex*/
-    justify-content: space-evenly;/* justificar el contenido, espacia uniformemente*/
-    margin-top: 30px;/* margen arriba*/
-  }
-  .img-galeria{
-    width: 30%;/* altura*/
-    display: block;/* bloqueo pantalla*/
-    margin-bottom: 15px;/* margen abajo*/
-    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
-    cursor: pointer;/* lo que apunta el puntero*/
-}
